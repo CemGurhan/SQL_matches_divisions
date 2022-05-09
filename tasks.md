@@ -13,7 +13,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 2) Find all the matches featuring Barcelona.
 
 ```sql
-<!-- Copy solution here -->
+<!-- Copy solution here --> SELECT * FROM matches WHERE 'Barcelona' IN (hometeam,awayteam);
 
 
 ```
@@ -21,7 +21,8 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 3) What are the names of the Scottish divisions included?
 
 ```sql
-<!-- Copy solution here -->
+<!-- Copy solution here --> SELECT name FROM divisions WHERE country = 'Scotland';
+
 
 
 ```
